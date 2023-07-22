@@ -1,0 +1,4 @@
+[console_scripts]
+listener = brain_system.subscriber_member_function:main
+talker = brain_system.publisher_member_function:main
+

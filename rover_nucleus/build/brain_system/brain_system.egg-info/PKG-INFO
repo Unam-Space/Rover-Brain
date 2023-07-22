@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: brain-system
+Version: 1.0.0
+Summary: TODO: Publisher de mensajes (enviara todos los comandos recibidos por Arduino, serán recibidos por el SUbscriber y procesados por los módulos anexos)
+Home-page: UNKNOWN
+Maintainer: ian
+Maintainer-email: iangarcia@ciencias.unam.mx
+License: TODO: License declaration
+Description: UNKNOWN
+Platform: UNKNOWN
