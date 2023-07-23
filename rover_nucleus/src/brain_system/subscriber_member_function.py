@@ -34,7 +34,7 @@ class MinimalSubscriber(Node):
     	En este segmento se realizara el análisis de la información
     	el msg será desglosado para enviar la señal correcta al 		controlador que a su vez controlará el driver
     	"""
-        self.get_logger().info('I heard: "%s"' % msg.data)
+    	self.get_logger().info('I heard: "%s"' % msg.data)
 
 
 def main(args=None):

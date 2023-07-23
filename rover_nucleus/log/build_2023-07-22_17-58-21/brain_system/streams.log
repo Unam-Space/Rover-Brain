@@ -1,0 +1,22 @@
+[3.394s] Invoking command in '/home/ian/rover_ros/rover_nucleus/src/brain_system': PYTHONPATH=/home/ian/rover_ros/rover_nucleus/build/brain_system/prefix_override:/home/ian/rover_ros/rover_nucleus/install/brain_system/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/brain_system build --build-base /home/ian/rover_ros/rover_nucleus/build/brain_system/build install --record /home/ian/rover_ros/rover_nucleus/build/brain_system/install.log --install-scripts $base/lib/brain_system --single-version-externally-managed
+[4.444s] running egg_info
+[4.447s] writing ../../build/brain_system/brain_system.egg-info/PKG-INFO
+[4.453s] writing dependency_links to ../../build/brain_system/brain_system.egg-info/dependency_links.txt
+[4.455s] writing entry points to ../../build/brain_system/brain_system.egg-info/entry_points.txt
+[4.458s] writing requirements to ../../build/brain_system/brain_system.egg-info/requires.txt
+[4.459s] writing top-level names to ../../build/brain_system/brain_system.egg-info/top_level.txt
+[4.656s] reading manifest file '../../build/brain_system/brain_system.egg-info/SOURCES.txt'
+[4.660s] writing manifest file '../../build/brain_system/brain_system.egg-info/SOURCES.txt'
+[4.661s] running build
+[4.662s] running build_py
+[4.662s] running install
+[4.666s] running install_lib
+[4.672s] running install_data
+[4.675s] running install_egg_info
+[4.682s] removing '/home/ian/rover_ros/rover_nucleus/install/brain_system/lib/python3.8/site-packages/brain_system-1.0.0-py3.8.egg-info' (and everything under it)
+[4.683s] Copying ../../build/brain_system/brain_system.egg-info to /home/ian/rover_ros/rover_nucleus/install/brain_system/lib/python3.8/site-packages/brain_system-1.0.0-py3.8.egg-info
+[4.688s] running install_scripts
+[4.771s] Installing listener script to /home/ian/rover_ros/rover_nucleus/install/brain_system/lib/brain_system
+[4.775s] Installing talker script to /home/ian/rover_ros/rover_nucleus/install/brain_system/lib/brain_system
+[4.777s] writing list of installed files to '/home/ian/rover_ros/rover_nucleus/build/brain_system/install.log'
+[4.931s] Invoked command in '/home/ian/rover_ros/rover_nucleus/src/brain_system' returned '0': PYTHONPATH=/home/ian/rover_ros/rover_nucleus/build/brain_system/prefix_override:/home/ian/rover_ros/rover_nucleus/install/brain_system/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/brain_system build --build-base /home/ian/rover_ros/rover_nucleus/build/brain_system/build install --record /home/ian/rover_ros/rover_nucleus/build/brain_system/install.log --install-scripts $base/lib/brain_system --single-version-externally-managed

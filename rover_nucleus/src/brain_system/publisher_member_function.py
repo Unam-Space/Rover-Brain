@@ -19,9 +19,9 @@ from std_msgs.msg import String
 
 
 class MinimalPublisher(Node):
-    self.movement_dict={"w":"going forward", "s":"going backward", "a":"turn left", "d":"turn right", "0":"stop"}
     def __init__(self):
         super().__init__('minimal_publisher')
+        self.movement_dict={"w":"going forward", "s":"going backward", "a":"turn left", "d":"turn right", "0":"stop"}
         self.publisher_ = self.create_publisher(String, 'topic', 10)
         timer_period = 0.5  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
@@ -30,8 +30,7 @@ class MinimalPublisher(Node):
     def timer_callback(self):
         msg = String()
         chose_step=random.choice(list(self.movement_dict.keys()))
-
-        msg.data = 'Step: %s, means: %s' %chose_step %self.movement_dict[chose_step]
+        msg.data = 'Step: %s'%self.movement_dict[chose_step]
         self.publisher_.publish(msg)
         self.get_logger().info('Publishing: "%s"' % msg.data)
         self.i += 1
